@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5%;
+  box-shadow: 0px 15px 21px 1px rgb(186 186 186 / 87%);
+  background: white;
+}
+
+.img1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 45px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+header li {
+  padding: 5px;
+  list-style: none;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+.btn{
+  background: pink;
+border: transparent;
+border-radius: 28%;
+}
+header a{
+  text-decoration: none;
+}
+#diploma-and-certificate{
+  display: flex;
+  padding: 15px 5%;
+justify-content: space-between;
+  align-items: center;
+}
+.diploma-and-certificate-content{
+  flex-basis: 65%;
+}
+
+
+.background-image-div{
+  border: solid purple;
+  width: 433px;
+  height: 404px;
+  background: linear-gradient(#e66465, #9198e5);
+  border-radius: 50%;
+position: absolute;
+    left: 1021px;
+     top: -2px;
+
+    z-index: -1;
+}
+#state-recognized-certificates{
+  display: flex;
+    padding: 15px 5%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.state-recognition-certificates-content{
+  flex-basis: 65%;
+}
+#state-recognized-certificates{
+  background: #35568c;
+}
+.img3{
+  position: relative;
+  top:50px;
+}
+#career-center{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 5%;
+
+}
+article [type="button"] {
+  padding: 6px;
+  border-radius: 10px;
+  left: 40px;
+  color: purple;
+  background: transparent;
+  font-weight: bolder;
+  border: solid 3px purple;
+}
+.career-center-content{
+  flex-basis: 69%;
+  margin-top: -9px;
+}
+footer section{
+  display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-right: 0px;
+
+    margin-left: -18px;
+
+}
+footer{
+  background: #281659;
+}
+footer h5{
+  color:#a07efc;
+  margin-left: 40px;
+}
+footer ul li{
+  list-style: none;
+}
+footer a, i{
+  color: white;
+}
+footer p{
+  color:white;
+}
